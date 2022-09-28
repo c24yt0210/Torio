@@ -1,0 +1,6 @@
+<?php  
+    echo "Twinkle, Twinkle little Star! </br> ";
+        $twinkle = "Twinkle";
+    $star ="Star";
+    echo " $twinkle, $twinkle little $star! </br> ";
+?>
