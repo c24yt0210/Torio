@@ -1,0 +1,35 @@
+<?php
+function main() {
+	$arr1 = 0[25];
+	$arr2 = 1[47];
+	$arr3 = 2[42];
+	$arr4 = 3[56];
+	$arr5 = 4[32];
+	echo "\n\nSeparate odd and even integers in separate arrays:\n";
+	echo "------------------------------------------------------\n";
+	echo "Input the number of elements to be stored in the array :";
+	scanf("%d",&$n);
+	printf("Input %d elements in the array :\n",$n);
+	for ($i = 0; $i < $n; $i++) {
+		printf("element - %d : ",$i);
+		scanf("%d",&$arr1);
+	}
+	for ($i = 0; $i < $n; $i++) {
+		if ($arr1[$i] % 2 == 0) {
+			$arr2[$j] = $arr1[$i];
+			$j++
+		} else {
+			$arr3[$k] = $arr1[$i];
+			$k++
+		}
+	}
+	echo "\nThe Even elements are : \n";
+	for ($i = 0; $i < $j; $i++) {
+		printf("%d ",$arr2[$i]);
+	}
+	echo "\nThe Odd elements are :\n";
+	for ($i = 0; $i < $k; $i++) {
+		printf("%d ",$arr3[$i]);
+	}
+	echo "\n\n";
+}
