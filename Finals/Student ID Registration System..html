@@ -1,7 +1,5 @@
-
-
-
 <html>
+<!--CSS--> 
 <style>
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -15,7 +13,7 @@ body {
 
 .boxlogin {
     width: 80%;
-    height: 350;
+    height: 510;
     position: relative;
     margin: 2% auto 0% auto;
     border-radius: 9px;
@@ -40,9 +38,9 @@ body {
     color: white;
     text-align: center;
     border: 1px #808080 solid;
-    background: #f58310;
-    
+    background: #f58310;  
 }
+
 .labellogin {
     width: 80%;
     height: 38px;
@@ -57,6 +55,7 @@ body {
     color: #FFF;
     background: #00819b;
 }
+
 .inputlogin {
     width: 80%;
     height: 50px;
@@ -74,8 +73,8 @@ body {
     font-weight: 500;
     color: #754D3C;
     text-indent: 3%;
-   
 }
+
 .boxtable {
     width: 95%;
     height: auto;
@@ -95,8 +94,8 @@ body {
     border-radius: 13px 13px 13px 13px;
     padding: 0.20% 0 2% 0;
     background: #afe2f9;
-    }
-   
+}
+
 input[type=submit] {
     width: 30%;
     _height: 25%;
@@ -113,15 +112,7 @@ input[type=submit] {
     text-shadow: 0px 1px 0px #e5e5ee;  background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2I4ZTFmYyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwJSIgc3RvcC1jb2xvcj0iI2E5ZDJmMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI1JSIgc3RvcC1jb2xvcj0iIzkwYmFlNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM3JSIgc3RvcC1jb2xvcj0iIzkwYmNlYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUwJSIgc3RvcC1jb2xvcj0iIzkwYmZmMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjUxJSIgc3RvcC1jb2xvcj0iIzZiYThlNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjgzJSIgc3RvcC1jb2xvcj0iI2EyZGFmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiZGYzZmQiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
     
 </style>
-
-
-
-
-
-
-
-
-
+<!--HTML--> 
 <head>
 <title>Schoolautomate - Student-Parent Login Page</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
@@ -130,53 +121,79 @@ input[type=submit] {
 </head>
 
 <body>
-<div class='maincontainer' style="height:650">
-<div class='holderlogin' style="width:750">
-<div class='signage'>Student/Parent/New Student Login</div>
-<div class='boxlogin'>
-<div style="font-weight:bold; font-size:16px; height:25px;"></div>
-<div class='boxtable'>
+	<div class='maincontainer' style="height:650">
+	<div class='holderlogin' style="width:750">
+	<div class='signage'>Student/Parent/New Student Login</div>
+	<div class='boxlogin'>
+	<div class='boxtable'>
+	<div class='selectlogin'>
+	<div style="font-weight:bold; font-size:16px; height:25px;"></div>
+	
 <form name="login"  action="../../commfile/login.jsp" method="post" target="_parent">
 <table width='100%' cellspacing='0' cellpadding='0' border='0'>
+<!--FIRST NAME-->
+	<tr>
+		<td width='45%' align='right'><div class='labellogin'>First Name</div></td>
+		<td width='55%'><input type='box' class='inputlogin' name="_1666146722565" placeholder="your first name" autocomplete="off" >
+        </td>
+	</tr>
+	<!--LAST NAME-->
+	<tr>
+		<td width='45%' align='right'><div class='labellogin'>Last Name</div></td>
+		<td width='55%'><input type='box' class='inputlogin' name="_1666146722565" placeholder="your last name" autocomplete="off" >
+        </td>
+	</tr>
+	<!--COUNTRY-->
+	 <td width='45%' align='right'><div class='labellogin'>Country</div></td>
+		<td width='55%'><select id="country" name="country" class='inputlogin'>
+      <option value="philippines">Philippines</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+	  <option value="russia">Russia</option>
+	  <option value="arfrica">Arfrica</option>
+	  <option value="england">England</option>
+	  <option value="afghanistan">Afghanistan</option>
+	  <option value="china">China</option>
+	  <option value="korea">Korea</option>
+	  <option value="japan">Japan</option>
+	  <option value="italy">Italy</option>
+    </select>
+        </td>
+<!--AGE-->
+	<tr>
+		<td width='45%' align='right'><div class='labellogin'>Age</div></td>
+		<td width='55%'><input type='box' class='inputlogin' name="_1666146722565" placeholder="00" autocomplete="off" maxlength="2">
+        </td>
+	</tr>
+	
+<!--ID-->
 	<tr>
 		<td width='45%' align='right'><div class='labellogin'>Student ID Number</div></td>
 		<td width='55%'><input type='box' class='inputlogin' name="_1666146722565" placeholder="00-0000-000" autocomplete="off" maxlength="11">
-        
-		<input type="hidden"  name="user_id"  value="_1666146722565" >
-        
-		</td>
+        </td>
 	</tr>
+<!--PASSWORD-->	
 	<tr>
 		<td width='45%' align='right'><div class='labellogin'>Password</div></td>
 		<td width='55%'><input type='password' class='inputlogin' name="_16661467225650" placeholder="******" autocomplete="off">
-		 <input type="hidden" name="password"  value="_16661467225650"> 
-	  	<input type="hidden" name="is_secured" value="1">
-        
-	</td>
+	    </td>
 	</tr>
-    
+		
+<!--RE-ENTER PASSWORD-->	
 	<tr>
-		<td colspan=2 width='100%' height="50" valign="bottom" align="center" ><input type='submit' value='Login Now' style="margin:0 0 0 0;"></td>
+		<td width='45%' align='right'><div class='labellogin'>Re-enter password</div></td>
+		<td width='55%'><input type='password' class='inputlogin' name="_16661467225650" placeholder="******" autocomplete="off">
+	    </td>
 	</tr>
 	<tr>
-		<td colspan="2" height="35" valign="bottom" align="center"><br><br>
-		Old Student:<br><a href="javascript:LoadPage2();"><font style="color:#000000"><b>Forgot password?</b>&nbsp;Click here.</font></a></td>
+	<td colspan=2 width='100%' height="50" valign="bottom" align="center" ><input type='submit' value='Login Now' style="margin:0 0 0 0;" value="Login"></td>
+<!--FORGOT PASSWORD-->			
 	</tr>
 </table>
-<input type="hidden" name="body_color" value="#9FBFD0">
-
-<input type="hidden" name="welcome_url" value="../PARENTS_STUDENTS/main_files/login_success.htm">
-<input type="hidden" name="page_url" value="../PARENTS_STUDENTS/main_files/parents_students_bottom_content.htm">
-<input type="hidden" name="login_type" value="parent_student">
 </form>
-</div>
-</div>
-
-<br>&nbsp;
-</div>
-
-</div>
-
-
-</body>
+	</div>
+	</div>
+	</div>
+	</div>
+	</body>
 </html>
